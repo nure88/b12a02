@@ -274,6 +274,10 @@ color:rgb(233, 90, 8) ;
   border-radius: 20px;
   z-index: 1;
 }
+.fst-bg:hover{
+  z-index: 0.5;
+  box-shadow: 0px 10px 40px gray;
+}
 .fst-bg .bg-title{
   font-weight: 700;
   font-size: 30px;
@@ -299,6 +303,10 @@ color:rgb(233, 90, 8) ;
   color: white;
   border-radius: 20px;
 }
+.second-bg:hover{
+    z-index: 0.5;
+  box-shadow: 0px 10px 40px gray;
+}
 .second-bg h2{
 
   font-weight: bold;
@@ -319,6 +327,10 @@ color:rgb(233, 90, 8) ;
   font-weight: bold;
   text-align: center;
   margin-bottom: 10px;
+}
+.deals-sub-single-container:hover{
+    z-index: 0.5;
+  box-shadow: 0px 10px 40px gray;
 }
 
 .deals-sub-single-container span {
@@ -480,7 +492,7 @@ footer {
   transform: scale(1.1);
   opacity: 0.8;
 }
-/*  */
+/* Reaponsive style */
 
 
 @media screen and (max-width: 576px) {
@@ -605,17 +617,10 @@ footer {
   .container-input button {
     width: 100%;
   }
-  /*  */
-
-
-
-
-
-
-
+  /* input and btn style section */
  .container-input {
     display: flex;
-    flex-direction: row; /* ইনপুট ও বাটন একসাথে বসবে */
+    flex-direction: row; 
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -642,7 +647,7 @@ footer {
     margin: -10px;
     background: rgb(233, 90, 8);
   }
-/*  */
+
   /* Footer */
   .main-footer-area {
     flex-direction: column;
@@ -662,3 +667,50 @@ footer {
     justify-content: center;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* animation-container */
+/* .animation-container{
+  background: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  animation-name: Learn;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes Learn{
+  0%{background: tomato; left: 0;top: 0;}
+  25%{
+    background: green; left: 500px; top: 0;
+  }
+  50%{
+    background: goldenrod;left: 500px; top: 500px;
+  }
+  75%{
+    background: purple;
+    top: 200px;
+    left: 0;
+  transform: ease-in;
+  }
+} */
