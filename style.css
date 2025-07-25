@@ -446,3 +446,115 @@ footer {
   transform: scale(1.1);
   opacity: 0.8;
 }
+
+
+
+
+/*responsinve desogn */
+
+
+
+/* RESPONSIVE STYLES FOR SMALL SCREENS (e.g. iPhones) */
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-decription-container,
+  .hero-img-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sub-container-1,
+  .sub-container-2 {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .card-1 img {
+    width: 100%;
+  }
+
+  .main-flower-plant-container {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .plant-img-container img {
+    position: static;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+
+  .plant-text-container {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .main-deals-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .deals-sub-single-container,
+  .fst-bg,
+  .second-bg {
+    width: 90%;
+    height: auto;
+  }
+
+  .main-container-input h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .container-input {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container-input input,
+  .container-input button {
+    width: 90%;
+    border-radius: 8px;
+    margin: 5px 0;
+  }
+
+  .main-footer-area {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-img {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+}
