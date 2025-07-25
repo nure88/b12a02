@@ -1,0 +1,297 @@
+body{
+  margin: 0;
+  padding: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+
+/* navbar style */
+.navbar{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+background:rgb(217, 217, 226);
+padding: 10px 40px;
+}
+.navbar img{
+  width: 200px;
+}
+
+.navbar .nav-list{
+  list-style: none;
+  gap: 60px;
+  display: flex;
+}
+.nav-list .nav-item .nav-link{
+  text-decoration:none;
+
+}
+.nav-list span i {
+  color: 000000;
+  font-weight: bold;
+  font-size: 90px;
+  font-family: 'inter';
+}
+.nav-list .nav-item .nav-link:hover{
+  text-decoration:underline;
+}
+/* hero-container */
+
+.hero-container{
+      width: 90%;
+      height: 400px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      background: hsl(240, 13%, 95%);
+      margin: 0 auto;
+      margin-top: 30px;
+}
+.hero-decription-container{
+       height: 300px;
+       width: 40%;
+       padding: 30px;
+       margin: 0 auto;
+}
+.hero-container p{
+  line-height: 20px;
+  font-size: 18px;
+}
+.hero-container span{
+  font-weight: bold;
+  color: hwb(39 0% 0%);
+  
+}
+.hero-img-container{
+     width: 60%;
+     height: 300px;
+   margin: 0 auto;
+}
+.hero-img-container img{
+  width: 100%;
+}
+/* "main- Plants-Section */
+
+.main-container{
+  text-align: center;
+  background: rgb(245, 248, 255);
+}
+
+.sub-container-1{
+  display: flex;
+justify-content: center;
+gap: 60px;
+margin-bottom: 30px;
+}
+
+.sub-container-2{
+   display: flex;
+justify-content: center;
+gap: 60px;
+margin-bottom: 30px;
+}
+
+.span-style{
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(233, 90, 8)
+}
+.heading-style{
+   font-weight: 700px;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+.card-title-style{
+  font-weight: 500px;
+  font-size: 22px;
+  color: rgb(17, 17, 17);
+}
+.card-heading{
+    /* font-family: "Inter", sans-serif; */
+  font-weight: 700;
+  font-size: 32px;
+color: rgb(17, 17, 17);
+}
+.top-bottom{
+  padding-bottom: 20px;
+}
+
+.plant-description{
+  padding: 30px;
+}
+.btn-style{
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  font-weight: 600;
+ background:rgb(233, 90, 8);
+color: rgb(255, 255, 255);
+}
+.card-1 {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 16px;
+  background-color: white;
+}
+.card-1 img {
+  height: auto;
+  width: 400px;
+  border-radius: 20px;
+}
+/* flower-plant-continer */
+.main-flower-plant-container{
+  height: 550px;
+  width:1800px;
+  /* background: purple; */
+  display: flex;
+ margin: 0 auto;
+  position: relative;
+  margin-top: 300px;
+  background: rgb(245, 248, 255);
+}
+.plant-img-container img{
+  height: 400px;
+  width: 400px;
+margin: -180px 0px -170px -230px;
+  position: absolute;
+}
+.plant-text-container{
+  margin-left: 130px;
+  margin-top: 10px;
+  width: 640px;
+ justify-content: center;
+ align-items: center;
+  height: 300px;
+}
+.plant-text-container ul li{
+  margin-top: 50px;
+  font-weight:  400;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.plant-text-container h2{
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+/* main-deals-container */
+.main-deals-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 90px auto;
+  width: 1800px;
+  height: auto;
+  flex-wrap: wrap; 
+  background: rgb(245, 248, 255);
+  margin-top: 90px;
+}
+
+.deals-sub-continer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deals-sub-single-container {
+  background-image: url(./B12A02-Responsive-Flowers/assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+}
+.deals-sub-single-container .bg-bg-title{
+  font-size: 40px;
+  font-weight: bold
+}
+
+.fst-bg {
+  background-image: url(./B12A02-Responsive-Flowers/assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+  z-index: 1;
+}
+.fst-bg .bg-title{
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.bg-title{
+    font-weight: 700;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.second-bg {
+  background-image: url(./B12A02-Responsive-Flowers/assets/deal-ana.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+.second-bg h2{
+
+  font-weight: bold;
+  font-size: 30px;
+}
+.bg-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bg-title-underline {
+  text-decoration: underline;
+}
+
+.deals-sub-single-container h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.deals-sub-single-container span {
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.deal-box {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.deal-box:hover {
+  transform: translateY(-5px);
+}

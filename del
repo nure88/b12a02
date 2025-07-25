@@ -1,0 +1,93 @@
+    <nav class="navbar">
+        <img src="./B12A02-Responsive-Flowers/assets/logo.png" alt="">
+        <ul class="nav-list">
+              <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About us</a></li>
+        <i class="fa-solid fa-cart-shopping"></i>
+        </ul>
+    </nav>
+
+
+<main>
+  <div class="hero-section">
+    <div class="hero-text-area">
+        <h2>my name is nure alom</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae quis exercitationem id assumenda quod alias nisi incidunt necessitatibus dolorem ullam aliquid aperiam cum architecto omnis odio nobis, consequatur asperiores.</p>
+    </div>
+    <div class="hero-img-area">
+        <img src="./B12A02-Responsive-Flowers/assets/hero-flower.png" alt="">
+    </div>
+  </div>
+</main>
+
+
+<!-- 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      background: rgb(235, 241, 241);
+}
+
+
+ .navbar{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 50px;
+  background: rgb(220, 228, 228);
+ }
+ .navbar img{
+    height: -20px;
+    width: 90px;
+ }
+ /* Font awesome icon style */
+ .navbar i{
+    color: black;
+    font-size: 50px;
+ }
+ .navbar .nav-list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+ }
+
+ .nav-list li a{
+    text-decoration: none;
+   
+    font-size: 25px;
+}
+/* hero-section */
+.hero-section{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 100px;
+  padding: 50px;
+  background: rgb(223, 230, 230);
+  margin-top: 20px;
+}
+.hero-text-area{
+    height: 200px;
+    width: 500px;
+    padding: 20px;
+}
+.hero-img-area{
+    height: 400px;
+    width: 880px;
+}
+.hero-text-area p{
+    line-height: 25px;
+    font-size: 19px;
+}
+.hero-img-area img{
+    width: 100%;
+    min-width:600px;
+    height: 350px;
+}
+-->
