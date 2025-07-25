@@ -16,16 +16,18 @@
 <body>
 <nav class="navbar">
     <img src="./B12A02-Responsive-Flowers/assets/logo.png" alt="">
-    <ul class="nav-list">
+   <div style="display: flex; justify-content: center; align-items: center; gap: 10px; padding: 30px;">
+     <ul class="nav-list">
         <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
         <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
         <!-- use card icon -->
-      <div>
-        <i class="fa-solid fa-cart-shopping"></i>
-       <span>Cart ($56)</span>
-      </div>
     </ul>
+    <!-- <div> -->
+      <i class="fa-solid fa-cart-shopping" style="margin-left: 20px; font-size: 30px;"></i>
+     <span>Cart ($56)</span>
+    <!-- </div> -->
+   </div>
 </nav>
 
 
@@ -34,8 +36,9 @@
      <div class="hero-container">
          <div class="hero-decription-container">
                    <article>
-                <h2 class="hero-title">ALWAYS<span> FRESH FLOWERS</span> </h2>
-                <p>
+                    <h6 class="hero-title">ALWAYS    <span class="hero-title"> FRESH</span> <span>FLOWERS</span></h6>
+             
+                <p class="hero-description">
                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.  
                 </p>
             </article>
@@ -166,8 +169,8 @@
 
 <!-- Latest  Deals section -->
 <section class="main-Deals-section">
-
-
+<h2 class="text-center heading"><span class="text-center span-style">Latest</span>  Deals</h2>
+<p class="text-center para-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 <div class="main-deals-container">
 
 
@@ -199,10 +202,14 @@
 
 <section class="Join-the-colorful-Bunch">
   <div class="main-container-input">
-      <h2>Join the colorful Bunch</h2>
+      <h2 class="heading-2">Join the colorful Bunch</h2>
    <div class="container-input">
-     <input type="text" placeholder="Write email">
-    <button>Subscribe</button>
+     <div>
+        <input type="text" placeholder="Write email">
+     </div>
+     <div>
+         <button>Subscribe</button>
+     </div>
    </div>
   </div>
 </section>
